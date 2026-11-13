@@ -1,4 +1,4 @@
-# coach_window.py — финальная версия: визуально привлекательный вывод результатов
+# coach_window.py 
 
 import sys
 import os

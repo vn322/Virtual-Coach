@@ -153,7 +153,7 @@ class PoseAnalyzer:
 
         # Номер кадра в левом верхнем углу
         self._put_text(annotated, f"{self.frame_count}", (10, 30))
-        # Подпись автора в левом нижнем углу — ✅ добавлена
+        # Подпись автора в левом нижнем углу 
         self._put_text(annotated, "Ermakov.AV, 2025", (10, h - 20), (255, 255, 255))
 
         self.frame_data_log.append(data)

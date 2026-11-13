@@ -20,7 +20,7 @@ def load_model(folder: str):
 
     df = pd.read_csv(csv_path)
 
-    # ✅ Очистка от пустых строк (как в вашем data_1766228186.csv — 47 пустых строк!)
+    #  Очистка от пустых строк
     df = df.dropna(subset=['frame_number']).reset_index(drop=True)
     angle_cols = [c for c in df.columns if c.endswith('_angle')]
     if angle_cols:
